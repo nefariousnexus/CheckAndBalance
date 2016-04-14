@@ -160,6 +160,7 @@
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="Controllers\legislationsController.vb" />
+    <Compile Include="Controllers\usersController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -235,6 +236,11 @@
     <Content Include="Views\legislations\Details.vbhtml" />
     <Content Include="Views\legislations\Edit.vbhtml" />
     <Content Include="Views\legislations\Index.vbhtml" />
+    <Content Include="Views\users\Create.vbhtml" />
+    <Content Include="Views\users\Delete.vbhtml" />
+    <Content Include="Views\users\Details.vbhtml" />
+    <Content Include="Views\users\Edit.vbhtml" />
+    <Content Include="Views\users\Index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
