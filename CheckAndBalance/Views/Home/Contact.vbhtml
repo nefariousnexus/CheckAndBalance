@@ -6,7 +6,7 @@ End Code
 <h3>@ViewData("Message")</h3>
 
 <address>
-    Check and Balance<br />
+    CheckAndBalance<br />
     Cochran, GA 31014-0000<br />
     <abbr title="Phone">P:</abbr>
     478.555.5555

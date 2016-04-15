@@ -1,9 +1,9 @@
 ﻿@Code
-    ViewData("Title") = "CheckandBalance"
+    ViewData("Title") = "CheckAndBalance"
 End Code
 
 <div class="jumbotron">
-    <h1>Check and Balance</h1>
+    <h1>CheckAndBalance</h1>
     <p class="lead">CheckAndBalance is a free web appplication that gives citizens a new tool for reading current Bills that will be voted on soon by Congress and letting the Senators and Representatives know what he/she thinks of the Bill.</p>
     <!-- <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p> -->
 </div>
