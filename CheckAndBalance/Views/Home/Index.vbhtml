@@ -1,31 +1,38 @@
 ﻿@Code
-    ViewData("Title") = "Home Page"
+    ViewData("Title") = "CheckandBalance"
 End Code
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <h1>Check and Balance</h1>
+    <p class="lead">CheckAndBalance is a free web appplication that gives citizens a new tool for reading current Bills that will be voted on soon by Congress and letting the Senators and Representatives know what he/she thinks of the Bill.</p>
+    <!-- <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p> -->
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
+        <h2>Easy to get started</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            Simply register, login using the username and password you create during the 
+            registration process, select the legislation you wish to view, read the 
+            legislation.
         </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <!-- <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p> -->
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        <h2>How to add a comment</h2>
+        <p>Simply highlight all or part of the text, right click the highlighted portion,
+           select <i>Add comment</i>.
+        </p>
+        <!-- <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p> -->
     </div>
     <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h2>Guests</h2>
+        <p>
+            You do not have to register in order to view the legislation. Click on the Guest
+            link provided and you will be logged in as a guest. However, if you are logged in
+            as a guest, all you can do is view the legislation. You must register in order to
+            add comments.
+        </p>
+        <!-- <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p> -->
     </div>
 </div>

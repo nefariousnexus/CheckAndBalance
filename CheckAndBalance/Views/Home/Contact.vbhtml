@@ -2,14 +2,14 @@
     ViewData("Title") = "Contact"
 End Code
 
-<h2>@ViewData("Title").</h2>
+<!-- <h2>@ViewData("Title").</h2> -->
 <h3>@ViewData("Message")</h3>
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
+    Check and Balance<br />
+    Cochran, GA 31014-0000<br />
     <abbr title="Phone">P:</abbr>
-    425.555.0100
+    478.555.5555
 </address>
 
 <address>
