@@ -241,6 +241,8 @@
     <Content Include="Views\users\Details.vbhtml" />
     <Content Include="Views\users\Edit.vbhtml" />
     <Content Include="Views\users\Index.vbhtml" />
+    <Content Include="Views\LegCom\View.vbhtml" />
+    <Content Include="Views\LegCom\Index.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
