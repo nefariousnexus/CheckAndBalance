@@ -159,7 +159,7 @@
     <Compile Include="App_Start\BundleConfig.vb" />
     <Compile Include="App_Start\FilterConfig.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
-    <Compile Include="Controllers\legcomController.vb" />
+    <Compile Include="Controllers\legComController.vb" />
     <Compile Include="Controllers\legislationsController.vb" />
     <Compile Include="Controllers\usersController.vb" />
     <Compile Include="Global.asax.vb">
@@ -242,8 +242,8 @@
     <Content Include="Views\users\Details.vbhtml" />
     <Content Include="Views\users\Edit.vbhtml" />
     <Content Include="Views\users\Index.vbhtml" />
-    <Content Include="Views\legcom\Details.vbhtml" />
-    <Content Include="Views\legcom\Index.vbhtml" />
+    <Content Include="Views\LegCom\Index.vbhtml" />
+    <Content Include="Views\LegCom\Details.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
