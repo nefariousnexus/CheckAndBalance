@@ -14,9 +14,9 @@ End Code
             <td>
                 @Html.DisplayFor(Function(modelItem) item.legTitle)
             </td>
-    <td>
-        @Html.ActionLink("View", "View", New With {.id = item.legID})
-    </td>
+            <td>
+                @Html.ActionLink("View", "Details", New With {.id = item.legID})
+            </td>
         </tr>
     Next
 </table>
