@@ -5,9 +5,13 @@ Namespace myLegislation
     Public Class comment
         <Key>
         Public Property comID As Integer
+        <Display(Name:="Selected Text")>
         Public Property comSelectedText As String
+        <Display(Name:="Comment")>
         Public Property comFullText As String
+        <Display(Name:="Authors")>
         Public Property comAuthor As String
+        <Display(Name:="Legislation")>
         Public Property comLegislation As Integer
     End Class
 End Namespace
