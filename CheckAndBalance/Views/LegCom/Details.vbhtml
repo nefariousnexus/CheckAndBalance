@@ -3,12 +3,11 @@
     ViewData("Title") = "Details"
 End Code
 
-<h2>@Html.DisplayFor(Function(model) model.legNum)</h2>
-<h3>@Html.DisplayFor(Function(model) model.legTitle)</h3>
+<h2>@Html.DisplayFor(Function(model) model.legNum) - @Html.DisplayFor(Function(model) model.legTitle)</h2>
 
 <div class="row">
     <div class="col-sm-8"><p>@Html.DisplayFor(Function(model) model.legFullText)</p></div>
     <div class="col-sm-4">
-        <div class="well">@Html.DisplayFor(Function(model) model.legFullText)</div>
+        <div class="well">@Html.DisplayFor(Function(model) model.comments)</div>
     </div>
 </div>

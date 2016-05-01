@@ -34,9 +34,9 @@ End Code
             @Html.DisplayFor(Function(modelItem) item.legFullText)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", New With {.id = item.legID }) |
-            @Html.ActionLink("Details", "Details", New With {.id = item.legID }) |
-            @Html.ActionLink("Delete", "Delete", New With {.id = item.legID })
+            @Html.ActionLink("Edit", "Edit", New With {.id = item.legID}) |
+            @Html.ActionLink("Details", "Details", New With {.id = item.legID}) |
+            @Html.ActionLink("Delete", "Delete", New With {.id = item.legID})
         </td>
     </tr>
 Next
