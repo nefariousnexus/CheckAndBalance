@@ -2,6 +2,7 @@
 Imports System.ComponentModel.DataAnnotations.Schema
 
 Namespace myLegislation
+    'This is the model for the User table in the database.
     Public Class user
         <Key>
         Public Property userID As Integer

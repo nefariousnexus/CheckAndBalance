@@ -2,6 +2,7 @@
 Imports System.ComponentModel.DataAnnotations.Schema
 
 Namespace myLegislation
+    'This is the model for the Permissions table in the database.
     Public Class permission
         <Key>
         Public Property permID As Integer

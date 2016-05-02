@@ -1,6 +1,7 @@
 ﻿Imports System.ComponentModel.DataAnnotations
 Imports System.ComponentModel.DataAnnotations.Schema
 
+'This is the model for the Comments table in the database.
 Namespace myLegislation
     Public Class comment
         <Key>

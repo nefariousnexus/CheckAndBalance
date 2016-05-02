@@ -9,11 +9,13 @@ Namespace Controllers
         Private db As New legislationModel
 
         ' GET: legcom
+        'Gets the list of Legislations.
         Function Index() As ActionResult
             Return View(db.myLeg.ToList())
         End Function
 
         ' GET: legislations/Details/5
+        'This is to show the text of legislation with the comments on the right side.
         Function Details(ByVal id As Integer?) As ActionResult
             If IsNothing(id) Then
                 Return New HttpStatusCodeResult(HttpStatusCode.BadRequest)

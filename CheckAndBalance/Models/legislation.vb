@@ -2,6 +2,7 @@
 Imports System.ComponentModel.DataAnnotations.Schema
 
 Namespace myLegislation
+    'This is the model for the Legislation database.
     Public Class legislation
         Public Sub New()
             Me.comments = New List(Of comment)

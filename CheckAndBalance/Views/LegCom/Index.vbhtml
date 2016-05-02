@@ -4,7 +4,7 @@
 End Code
 
 <h2>Legislation</h2>
-
+@* Table for displaying a list of Legislations. *@
 <table class="table">
     @For Each item In Model
         @<tr>
